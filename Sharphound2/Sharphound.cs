@@ -299,7 +299,7 @@ General Options
             //}
         }
 
-        public static void Main(string[] args)
+        public static void Run(string[] args)
         {
             if (args == null)
                 throw new ArgumentNullException(nameof(args));
@@ -690,7 +690,7 @@ General Options
 
         public static void InvokeBloodHound(string[] args)
         {
-            Main(args);
+            Run(args);
         }
     }
 }
